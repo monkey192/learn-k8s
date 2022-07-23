@@ -1,7 +1,7 @@
 ### Demo loadbalancer
  ![overview](overview.png)
 
-For testing loadbalancer, i write $HOSTNAME to html file
+for verifing loadbalancer, i write $HOSTNAME to `html file` to identify what pod is redireced to.
 
 ### Deployment
 - `kubectl apply -f .`
@@ -28,7 +28,7 @@ nginx-55f88444bb-x9wcq
 nginx-55f88444bb-x9wcq
 nginx-55f88444bb-lzxl6
 ```
-👆 all pods are forwarded
+👆 all pods are forwarded to
 
 ### destroy
 ```sh
